@@ -18,7 +18,7 @@ func main() {
 		settingsWindow.SetContent(widget.NewLabel("Ici tu pourras configurer les blindes, la durée, etc."))
 
 		// Parametre pour definir le temps des rounds
-
+		// Test
 		// Parametre pour definir les blindes
 		// Parametre pour definir les ante
 		// Parametre pour definir les pauses
