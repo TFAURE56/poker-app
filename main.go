@@ -10,7 +10,7 @@ import (
 
 func main() {
 	myApp := app.New()
-	myWindow := myApp.NewWindow("Poker Club - Timer Blindes")
+	myWindow := myApp.NewWindow("Poker Club")
 
 	// Exemple de fenêtre "Paramètres"
 	openSettings := func() {
@@ -30,7 +30,7 @@ func main() {
 
 	// Exemple de boîte de dialogue "À propos"
 	openAbout := func() {
-		dialog.ShowInformation("À propos", "Poker Timer v1.0\nFait avec Fyne", myWindow)
+		dialog.ShowInformation("À propos", "Poker App v0.0.1\nFait avec Fyne", myWindow)
 	}
 
 	openUpdate := func() {
