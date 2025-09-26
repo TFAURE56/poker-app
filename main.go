@@ -33,10 +33,6 @@ func main() {
 		dialog.ShowInformation("À propos", "Poker App v0.0.1\nFait avec Fyne", myWindow)
 	}
 
-	openUpdate := func() {
-		dialog.ShowInformation("Mise à jour", "Vérification des mises à jour...\nVous utilisez la dernière version.", myWindow)
-	}
-
 	// Définir le menu
 	mainMenu := fyne.NewMainMenu(
 		fyne.NewMenu("Fichier",
@@ -52,9 +48,6 @@ func main() {
 		fyne.NewMenu("Aide",
 			fyne.NewMenuItem("À propos", func() {
 				openAbout()
-			}),
-			fyne.NewMenuItem("Update", func() {
-				openUpdate()
 			}),
 		),
 	)
